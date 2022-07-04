@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css project hai</title>
+<style>
+    body{
+        padding: 0;
+        margin: 0;
+    }
+    .nav-img{
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        margin-top: 15px;
+        float: left;
+       
+    }
+    #container{
+       padding: 0;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    #navbar{
+        height: 115px;
+        width: 100%;
+        background-color: yellowgreen;
+        margin-bottom: 0;
+        }
+        #container p{
+            font-size: 50px;
+            padding-top: 15px;
+            margin-top: 0;
+            margin-bottom: 0;
+            font-weight: bolder;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: white;
+        }
+        .button{
+            padding-top:-30px;
+            position: absolute;
+            right: 20px;
+            top: 50px;
+        }
+        button{
+            background-color: yellowgreen;
+            margin-right: 20px;
+         font-size: 20px;
+          box-shadow: 1px 1px 2px 0;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: bolder;
+        }
+        .body{
+            background: url('../web/img/hello.jpg')no-repeat;
+           background-size: 100% 100%;
+           margin-top: 0;
+           height:600px;
+           padding-top: 0;
+          
+        }
+        .body p{
+            display: block;  
+        position: absolute;
+        top: 150px;
+        left: 30%;
+         margin-left: 15px;
+         font-size: 80px;
+         color: blue;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+         font-weight: bolder;
+         }
+         .p1{
+           margin-left:125px;
+           color: aqua;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+           font-weight: bolder;
+         }
+         .main-menu{
+            position: absolute;
+            bottom: 150px;
+            left: 50%;
+            font-size: 30px;
+         }
+
+         #haha{
+            width: 280px;
+            height: 50px;
+        float: left;
+        margin-left: -500px;
+        background-color: aliceblue;
+        color: black;
+        font-style: italic;
+        font-weight: bolder;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+    .display{
+        height: 200px;
+        width: 700px;
+        background-color: azure;
+        position: absolute;
+        bottom: -53px;
+        margin-left: 176px;
+    }
+    .first-input{
+        justify-content: space-between;
+        display: flex;
+        margin: 10px 10px 10px;
+        width: 500px;
+        color: black;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bolder;
+        margin-bottom: 60px;
+    }
+    .second-input{
+        justify-content: space-between;
+        display: flex;
+        margin: 10px 10px 10px;
+        width: 500px;
+        color: black;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bolder;
+    }
+    #main-content{
+        position: absolute;
+        right: 0;
+        bottom: 40%;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bolder;
+        margin-right: 30px;
+        height: 40px;
+        width: 100px;
+        background-color: brown;
+        border-radius: 35px;
+        text-align: center;
+        border: 1px solid black;
+    }
+
+
+        
+       
+      
+        
+
+</style>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div id="container">
+         <img class="nav-img" src="img/travel.jpg">
+         <p>Eforlad</p>
+         </div>
+          <div class="button">
+            <button>Home</button>
+            <button>About</button>
+            <button>Travel</button>
+            <button>Blogs</button>
+            <button>Contact-us</button>
+
+          </div>
+        </nav>
+    </header>
+    <div class="body">
+  
+ <p>
+    <span class="p1">AMERICA</span><br>
+    <span >AMAZING TOUR</span>
+ </p>
+ <div class="main-menu">
+    <div id="haha">Find Your Tour</div>
+    <button>Read More</button>
+</div>
+<div class="display">
+    <div>
+      <div class="first-input">
+         <div>Keywords <br>
+            <input type="text">
+         </div>
+         <div> Catagory <br>
+            <input type="text">
+         </div>
+         <div> Min Price <br>
+            <input type="text">
+         </div>
+
+      </div>
+       <div class="second-input">
+        <div>Duration <br>
+         <input type="text">
+        </div>
+        <div> Date  <br>
+         <input type="text"></div>
+        <div> Max Price <br>
+            <input type="text">
+        </div>
+       </div>
+      
+    </div>
+    <div id="main-content">Search</div>
+</div>
+
+    </div>
+
+   
+    
+</body>
+</html>
